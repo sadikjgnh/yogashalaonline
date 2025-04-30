@@ -71,7 +71,7 @@ export const Header = () => {
                       <NavigationMenuTrigger className="font-medium text-sm text-white">
                         {item.title}
                       </NavigationMenuTrigger>
-                      <NavigationMenuContent className="absolute top-full left-0 mt-2 bg-white shadow-lg rounded-md w-52 z-50 margin-left:42rem;">
+                      <NavigationMenuContent className="absolute top-full left-0 mt-2 bg-white shadow-lg rounded-md w-52 z-50 ml-[42rem]"
                         <div className="flex flex-col gap-2 p-2">
                           {item.dropdown.map((subItem) => (
                             <Link
